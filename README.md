@@ -25,6 +25,4 @@ Then drop a font file onto the box, or click the box to choose one.
 Please check a font's licence before you share cards of it publicly.
 
 ## Licence
-The code is released under the MIT licence: see [LICENSE](LICENSE).
-
-Artwork and the CamChromatic name/logo are © Cam Garcia, all rights reserved; the MIT licence covers the code only.
+Font Sheet is released under the MIT licence: see [LICENSE](LICENSE).
