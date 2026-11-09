@@ -173,10 +173,6 @@
   #missingNote { margin: -4px 0 16px; color: var(--muted); font-size: 14px; }
   #fitNote { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
   .note { color: var(--muted); font-size: 14px; margin-top: 16px; }
-  /* Small, quiet footer (same text in all of Cam's tools). */
-  .site-foot { margin-top: 32px; text-align: center; color: var(--muted); font-size: 13px; line-height: 1.6; }
-  .site-foot a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
-  .site-foot a:hover { color: var(--ink); }
 </style>
 </head>
 <body>
@@ -203,7 +199,7 @@
     <h2>Font</h2>
     <label id="drop" tabindex="0">
       <strong>Drop a font file here, or click to choose one</strong>
-      <span>.ttf, .otf, .woff or .woff2</span>
+      <span>.ttf, .otf, .woff or .woff2. Your font stays on your computer and is never uploaded.</span>
       <input id="file" type="file" accept=".ttf,.otf,.woff,.woff2,font/*" hidden>
     </label>
     <p id="message" role="status"></p>
@@ -280,12 +276,6 @@
     </div>
   </section>
   </div>
-  <footer class="site-foot">
-    A free tool by <a href="https://camchromatic.com">Cam Garcia</a>.
-    Your files stay on your computer.
-    Like what I do? <a href="https://ko-fi.com/camchromatic" target="_blank" rel="noopener">Support me on Ko-Fi</a>.
-    <span id="codeLink"><a href="https://github.com/camchromatic/font-sheet" target="_blank" rel="noopener">View the code</a>.</span>
-  </footer>
 </main>
 
 <!-- Tips and tricks, opened by the "?" button (like Swatch Page Maker and Palette Lab). -->
